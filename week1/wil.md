@@ -19,7 +19,7 @@ https://regal-hummingbird-1bb3dc.netlify.app
   * alt: 이미지가 표시되지 않을 때 대체 텍스트 제공
 
 
-#### HTML과 CSS, JavaScript의 관계
+### HTML과 CSS, JavaScript의 관계
 
 * **HTML**: 웹 페이지의 구조와 내용을 정의
 * **CSS (Cascading Style Sheets)**: HTML 요소들의 스타일(디자인, 레이아웃)을 지정
