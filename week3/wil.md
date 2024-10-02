@@ -11,7 +11,7 @@
   * .css 파일을 만들고 link 태그로 연결
 
 ### 속성
-* color: 텍스트의 색상을 지정 / background-color: 요소의 배경 색상을 지정
+* **color**: 텍스트의 색상을 지정 / **background-color**: 요소의 배경 색상을 지정
   * 색상 이름, HEX 코드, RGB 등으로 지정
   ```css
   color: red; /* 텍스트를 빨간색으로 */
@@ -23,14 +23,14 @@
   background-color: #f0f0f0; /* 배경을 회색으로 */
   background-color: rgba(0, 0, 0, 0.5); /* 투명도 50%의 검은 배경 */
   ```
-* font-weight: 텍스트의 굵기를 지정
+* **font-weight**: 텍스트의 굵기를 지정
   * normal (기본), bold (굵게), 또는 100~900 사이의 숫자 값으로 설정
   ```css
   font-weight: normal; /* 기본 굵기 */
   font-weight: bold; /* 굵게 */
   font-weight: 700; /* 굵은 글씨 */
   ```
-* font-size: 텍스트의 크기를 지정
+* **font-size**: 텍스트의 크기를 지정
   * pt, 픽셀(px), em, rem, 백분율(%) 등으로 설정
   ```css
   font-size: 12pt; /* 12pt 크기의 텍스트 */
@@ -38,7 +38,7 @@
   font-size: 1.5em; /* 부모 요소 크기의 1.5배 */
   font-size: 120%; /* 부모 요소 크기의 120% */
   ```
-* margin: 요소의 외부 여백(바깥쪽 여백)을 설정 / adding: 요소의 내부 여백(안쪽 여백)을 설정
+* **margin**: 요소의 외부 여백(바깥쪽 여백)을 설정 / **padding**: 요소의 내부 여백(안쪽 여백)을 설정
   * 픽셀(px), 퍼센트(%), auto로 설정
   * 네 방향(위, 오른쪽, 아래, 왼쪽)에 대해 개별적으로 지정할 수도 있음
   ```css
