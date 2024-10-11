@@ -1,11 +1,12 @@
 ## [Counter App](https://visionary-kheer-72c19f.netlify.app)
 
-# class vs id
+## class vs id
 **class**
 * HTML에서 class는 여러 요소에 적용될 수 있는 스타일이나 동작을 정의할 때 사용
   * 여러 요소들이 같은 class를 가질 수 있음 - 여러 요소에 동일한 스타일 또는 스크립트를 적용하고 싶을 때 사용
 * CSS에서 .(점)으로 시작하며, 예를 들어 .my-class는 my-class라는 클래스를 가진 모든 요소를 선택
 * CSS에서 id보다 우선 순위가 낮음
+
 **id**
 * HTML에서 id는 요소를 고유하게 식별하기 위해 사용
   * 각 id는 문서 내에서 오직 하나의 요소에만 적용할 수 있음 - 특정한 하나의 요소를 고유하게 식별하고, CSS나 JavaScript에서 해당 요소를 다룰 때 사용
