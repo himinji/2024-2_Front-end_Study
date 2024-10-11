@@ -22,9 +22,9 @@
 
 ## id가 아닌 class로 JS 조작하는 방법
 * **id**: HTML에서 고유한 요소를 식별하는데 사용되며, 한 페이지에서 단 하나의 요소에만 적용할 수 있음
-  * JavaScript에서 **getElementById()**로 사용
+  * JavaScript에서 `getElementById()`로 사용
 * **class**: 여러 요소에 적용할 수 있는 공통 스타일이나 동작을 정의하며, 동일한 클래스를 가진 여러 요소를 선택할 수 있음
-  * JavaScript에서 **getElementsByClassName()**로 사용
+  * JavaScript에서 `getElementsByClassName()`로 사용
 * 코드 예시
 ```javascript
   // class로 버튼과 카운트 요소 선택
