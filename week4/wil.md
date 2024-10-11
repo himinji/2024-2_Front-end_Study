@@ -1,4 +1,4 @@
-## [Counter App](https://visionary-kheer-72c19f.netlify.app)
+### [Counter App](https://visionary-kheer-72c19f.netlify.app)
 
 ## class vs id
 **class**
