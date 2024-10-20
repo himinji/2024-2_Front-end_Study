@@ -1,6 +1,5 @@
 ## [Counter App](https://visionary-kheer-72c19f.netlify.app)
-
- 
+***
 ## API, Frontend, Backend
 **API (Application Programming Interface)**
 * 클라이언트와 서버 간의 데이터를 주고 받는 통로 역할
@@ -16,7 +15,7 @@
 * 비즈니스 로직 처리, 인증, 보안 등을 다룸
 
  
-
+***
 ## fetch와 Promise
 ### fetch() 함수란?
 * 자바스크립트에서 서버에 네트워크 요청을 보내고 그 응답을 받아오는 비동기 함수
@@ -49,7 +48,7 @@ fetch(url)
 * 비동기 작업 : `fetch()`는 비동기적으로 동작하여 서버로부터 데이터를 받아오는 동안 다른 코드가 계속 실행될 수 있다. 따라서 웹 페이지가 멈추지 않고 빠르게 반응할 수 있다.
 
 
- 
+***
 ## 데이터를 화면에 뿌리기
 JS를 통해 새로운 HTML 태그를 만들기 (title의 내용)
 1. 새로운 태그를 만든다.
@@ -57,6 +56,6 @@ JS를 통해 새로운 HTML 태그를 만들기 (title의 내용)
 3. 새로운 태그를 root에 추가한다.
  
 
-
+***
 ## DOM (Document Object Model)
 HTML 태그 하나하나를 자바스크립트로 컨트롤할 수 있도록 만든 체계 - **트리 구조**
