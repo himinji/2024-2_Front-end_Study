@@ -1,4 +1,4 @@
-## [Counter App](https://visionary-kheer-72c19f.netlify.app)
+## [week5](https://visionary-kheer-72c19f.netlify.app)
 ***
 ## API, Frontend, Backend
 **API (Application Programming Interface)**
@@ -14,7 +14,6 @@
 * 서버에서 동작하는 부분을 다루는 개발 영역
 * 비즈니스 로직 처리, 인증, 보안 등을 다룸
 
- 
 ***
 ## fetch와 Promise
 ### fetch() 함수란?
@@ -47,7 +46,6 @@ fetch(url)
 * Promise 반환 : `fetch()`가 반환한 Promise 객체는 서버 요청이 완료되면 `then()`으로 데이터를 처리하고, 요청이 실패할 경우 `catch()`로 에러를 처리한다.
 * 비동기 작업 : `fetch()`는 비동기적으로 동작하여 서버로부터 데이터를 받아오는 동안 다른 코드가 계속 실행될 수 있다. 따라서 웹 페이지가 멈추지 않고 빠르게 반응할 수 있다.
 
-
 ***
 ## 데이터를 화면에 뿌리기
 JS를 통해 새로운 HTML 태그를 만들기 (title의 내용)
@@ -55,7 +53,6 @@ JS를 통해 새로운 HTML 태그를 만들기 (title의 내용)
 2. 태그에 데이터를 넣는다.
 3. 새로운 태그를 root에 추가한다.
  
-
 ***
 ## DOM (Document Object Model)
 HTML 태그 하나하나를 자바스크립트로 컨트롤할 수 있도록 만든 체계 - **트리 구조**
