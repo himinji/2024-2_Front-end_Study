@@ -1,5 +1,4 @@
 ## [React](https://create-react-app-one-rho-88.vercel.app/)
-***
 ## SPA(Single Page Application)
 * 하나의 HTML 페이지에서 모든 애플리케이션 기능을 제공하는 웹 애플리케이션 아키텍처
 * SPA에서는 페이지를 새로고침하거나 다시 로드하지 않고도 사용자와의 상호작용을 처리
