@@ -19,7 +19,7 @@ function CountNumber(properties) {
    
     fontSize: '30px',
    
-    color:   `${coloredNumber()}`
+    color: `${coloredNumber()}`
     }
    
     return (
@@ -30,6 +30,4 @@ function CountNumber(properties) {
    
    }
    
-   export default CountNumber
-   
-   
+   export default CountNumber;

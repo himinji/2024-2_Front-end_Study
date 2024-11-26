@@ -1,6 +1,6 @@
 import { useState } from 'react';
-
 import CountNumber from './CountNumber';
+import Button from './Button';
 
 
 function Counter() {
@@ -9,45 +9,36 @@ function Counter() {
 
 
  function increment10() {
+  setCount(count+10);
+ }
 
-    setCount(count+10);
-   
-    }
-   function increment() {
+function increment() {
+  setCount(count+1);
+ }
+
+function decrement() {
+  setCount(count-1);
+ }
+ 
+function decrement10() {
+  setCount(count-10);
+ }
   
-   setCount(count+1);
-  
-   }
-  
-   function decrement() {
-    setCount(count-1);
-   }
-   function decrement10() {
-    setCount(count-10);
-   }
-  
-   function reset() {
-    setCount(0);
-   }
+function reset() {
+  setCount(0);
+}
 
 
  return (
 
- <div>
-
- <CountNumber count={count} />
-
- <button onClick={increment10}
- style={{background:'rgb(255,0,0)',margin: '10px'}}>+10</button>
- <button onClick={increment}
- style={{background:'#ffff00',margin: '10px'}}>+1</button>
- <button onClick={reset}
- style={{background:'#00ff00',margin: '10px'}}>reset!</button>
- <button onClick={decrement}
- style={{background:'#00ffff',margin: '10px'}}>-1</button>
- <button onClick={decrement10}
- style={{background:'#0000ff',margin: '10px'}}>-10</button>
- </div>
+  <div>
+  <CountNumber count={count} />
+  <Button onClick={increment10} text="+10" color="#e63946" />
+  <Button onClick={increment} text="+1" color="#f4a261" />
+  <Button onClick={reset} text="reset!" color="#2a9d8f" />
+  <Button onClick={decrement} text="-1" color="#457b9d" disabled={count <= 0} />
+  <Button onClick={decrement10} text="-10" color="#1d3557" disabled={count < 10} />
+</div>
 
  )
 
